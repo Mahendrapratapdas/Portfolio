@@ -1,6 +1,5 @@
 import { Container } from "./styles";
 import Mahendra from "../../assets/MahendraPic.png";
-import expressIcon from "../../assets/express.svg";
 import gitIcon from "../../assets/git.svg";
 import linuxIcon from "../../assets/linux.svg";
 import pythonIcon from "../../assets/python.svg";
