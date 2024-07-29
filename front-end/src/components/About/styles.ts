@@ -65,7 +65,7 @@ export const Container = styled.section`
       margin-top: 4rem;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 50%;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
@@ -83,10 +83,12 @@ export const Container = styled.section`
     }
     .about-image{
       display: flex;
-      max-width: 100%;
+      width: 100%;
+      
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 99%;
+        height: unset;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
