@@ -22,7 +22,7 @@ export const Card = styled.div`
   .details {
     display: flex;
     flex-direction: column;
-
+    
     h2 {
       margin: 0;
       font-size: 1.2em;
@@ -33,6 +33,13 @@ export const Card = styled.div`
       margin: 5px 0;
       color: #555;
     }
+  }
+     @media (max-width: 768px) {
+    flex-direction: column;
+    margin: 20px 0; // Adjust margin for mobile screens to create vertical space
+    .details {
+    margin: 10px;
+    }       
   }
 `;
 
@@ -48,6 +55,9 @@ export const CavissonImage = styled.img`
   width: 80px;
   height: 40px;
   margin-right: 30px;
+  @media (max-width: 768px) {
+  margin-right: 0px;
+}
 `;
 
 export const UcsImage = styled.img`
@@ -55,4 +65,7 @@ export const UcsImage = styled.img`
   height: 80px;
   margin-right: 30px;
   border-radius: 50px;
+  @media (max-width: 768px) {
+  margin-right: 0px;
+}
 `;
