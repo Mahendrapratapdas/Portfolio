@@ -8,6 +8,15 @@ export function Experience(){
     <>
     <Header><h2>My Experience</h2></Header>
     <Container className="experience">
+    <Card>
+      <UcsImage src={ucs} alt="Underscore Cybersecurity logo" />
+        <div className="details">
+          <h2>Software Developer</h2>
+          <p>Underscore Cybersecurity</p>
+          <p>Jun 2024 to Present</p>
+        </div>
+      </Card>
+      
       <Card className="cavisson">
       <CavissonImage src={cavisson} alt="Cavisson logo" />
         <div className="details">
@@ -16,14 +25,7 @@ export function Experience(){
           <p>Jun 2023 to Jun 2024</p>
         </div>
       </Card>
-      <Card>
-      <UcsImage src={ucs} alt="Underscore Cybersecurity logo" />
-        <div className="details">
-          <h2>Software Developer</h2>
-          <p>Underscore Cybersecurity</p>
-          <p>Jun 2024 to Present</p>
-        </div>
-      </Card>
+      
     </Container>
     </>
   )
